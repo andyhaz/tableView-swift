@@ -13,6 +13,7 @@
 		9734771825AA42C9009E7102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9734771625AA42C9009E7102 /* Main.storyboard */; };
 		9734772425AA42CA009E7102 /* tableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9734772325AA42CA009E7102 /* tableViewTests.swift */; };
 		9734772F25AA42CA009E7102 /* tableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9734772E25AA42CA009E7102 /* tableViewUITests.swift */; };
+		9734774025AA4934009E7102 /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9734773F25AA4934009E7102 /* CustomTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		9734772A25AA42CA009E7102 /* tableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9734772E25AA42CA009E7102 /* tableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewUITests.swift; sourceTree = "<group>"; };
 		9734773025AA42CA009E7102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9734773F25AA4934009E7102 /* CustomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				9734771025AA42C6009E7102 /* AppDelegate.swift */,
 				9734771225AA42C6009E7102 /* ViewController.swift */,
+				9734773F25AA4934009E7102 /* CustomTableCell.swift */,
 				9734771425AA42C9009E7102 /* Assets.xcassets */,
 				9734771625AA42C9009E7102 /* Main.storyboard */,
 				9734771925AA42C9009E7102 /* Info.plist */,
@@ -255,6 +258,7 @@
 			files = (
 				9734771325AA42C6009E7102 /* ViewController.swift in Sources */,
 				9734771125AA42C6009E7102 /* AppDelegate.swift in Sources */,
+				9734774025AA4934009E7102 /* CustomTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
